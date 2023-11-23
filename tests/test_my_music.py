@@ -1,4 +1,4 @@
-from lib.my_music import *
+from lib.my_music import MyMusic
 
 def test_add_to_dict():
     band_track_instance = MyMusic()
@@ -9,7 +9,6 @@ def test_add_to_dict():
 
     print("Result of test_add_to_dict:", band_track_instance.my_dict)
     assert band_track_instance.my_dict == {band1: tracks1}
-
 
 def test_add_to_dict_second_band():
     band_track_instance = MyMusic()
